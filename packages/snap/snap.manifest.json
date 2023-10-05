@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "description": "MetaSSI Snap",
+  "proposedName": "MetaSSI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "KV/Ht732zeY+BcdTgOPj2Nfu5mdPiWQEYIBrv3usPyo=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "endowment:ethereum-provider": {},
+    "endowment:network-access": {},
+    "snap_manageState": {}
+  },
+  "manifestVersion": "0.1"
+}
