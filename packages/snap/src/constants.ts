@@ -10,7 +10,7 @@ const constants = {
   DID_KEY_NAME: 'DID_KEY',
   VCS_KEY_NAME: 'VERIFIABLE_CREDENTIALS',
   VPS_KEY_NAME: 'VERIFIABLE_CREDENTIALS',
-  SSI_SERVER_URL: 'http://localhost:3000',
+  SSI_SERVER_URL: 'https://metassi.onrender.com',
 };
 
 export default constants;
