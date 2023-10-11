@@ -37,7 +37,7 @@ Usage:
     },
   });` 
 
-#### RPC Endpoint: issue VC (Verify Credential)
+#### RPC Endpoint: issue VC (Verifiable Credential)
 
 Description: This endpoint enables websites or organizations to issue verifiable credentials directly to the user's MetaMask wallet. The issued credential is securely stored within the MetaMask state, eliminating the need for users to manage it externally.
 Usage:
@@ -55,7 +55,7 @@ Usage:
     },
   });`
 
-#### RPC Endpoint: get VP (Verify Presentation)
+#### RPC Endpoint: get VP (Verifiable Presentation)
 
 Description: Websites or organizations can use this endpoint to request a verifiable presentation of a specific credential from the user. The verifiable presentation is retrieved from the user's MetaMask wallet, allowing seamless verification of the credential.
 Usage:
