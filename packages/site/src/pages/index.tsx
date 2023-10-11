@@ -19,6 +19,7 @@ import {
   Card,
 } from '../components';
 import { defaultSnapOrigin } from '../config';
+import EmbeddedVideo from '../components/EmbeddedVideo';
 
 const Container = styled.div`
   display: flex;
@@ -208,6 +209,7 @@ const Index = () => {
       <Heading>
         Welcome to <Span>MetaSSI</Span>
       </Heading>
+      <EmbeddedVideo />
       <Subtitle>
         Get started by Installing <code>Meta SSI</code>
       </Subtitle>
